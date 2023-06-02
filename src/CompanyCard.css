@@ -1,0 +1,36 @@
+.company-card-container a {
+    text-decoration: none;
+}
+
+.company-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Add opacity */
+    text-align: left;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.15s ease-in-out;
+}
+
+.company-card img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 100px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.company-card:hover {
+    transform: scale(1.05); /* Add this rule */
+}
+
+.company-card-container a,
+.company-card-container a:visited,
+.company-card-container a:hover,
+.company-card-container a:active {
+    color: black; /* Change this to your desired color */
+    text-decoration: none; /* Removes the underline */
+}  

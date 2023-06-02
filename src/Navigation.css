@@ -1,0 +1,31 @@
+nav {
+  background-color: rgb(42, 40, 42);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  padding: 0.5em 0;
+  width: 12em;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: rgb(255, 184, 4);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(255, 184, 4);
+  text-decoration: none;
+}
+
+.yes-curr-user {
+justify-content: right;
+}
